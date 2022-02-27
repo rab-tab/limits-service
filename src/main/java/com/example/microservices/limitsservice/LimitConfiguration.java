@@ -1,14 +1,14 @@
 package com.example.microservices.limitsservice;
 
-public class Limits {
+public class LimitConfiguration {
 
     private int minimum;
     private int maximum;
 
-    public Limits() {
+    public LimitConfiguration() {
     }
 
-    public Limits(int minimum, int maximum) {
+    public LimitConfiguration(int minimum, int maximum) {
         this.minimum = minimum;
         this.maximum = maximum;
     }
